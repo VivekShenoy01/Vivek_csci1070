@@ -1,0 +1,12 @@
+from PIL import Image
+img = Image.open()
+img.save("screenshot.png")
+
+#Vivek_csci1070 is my own file where I copy the repos given to me by the teacher and edit it to do my own work. In there you can see README.md as well as the week_01 and week_02 that I have copied from other files
+#In the week_01 there are homework assignments as well as untitled files in week_02
+#csci_1070 and csci_1070_test are files gotten from the teachers repo that I take information and copy to my own file
+
+months = ["January", "Feburary", "March", "April", "May", "June", "July", "Augest", "September", "October", "Novermber", "December"]
+for birth in months:
+    if birth == "May":
+        print(f"{birth} is my birthday")
